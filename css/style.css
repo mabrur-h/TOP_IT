@@ -997,14 +997,14 @@ body {
     }
 }
 
-@media screen and (max-width: 520px) {
+ {
     .container {
         width: 400px;
     }
 
     .promo-text {
         font-size: 28px;
-    }
+    }@media screen and (max-width: 520px)
 
     .promo-text::before {
         width: 60px;
@@ -1084,6 +1084,166 @@ body {
     .footer-bottom .wrapper {
         line-height: 2px;
         font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        width: 300px;
+    }
+
+    .navbar .logo .logo-image {
+        width: 30px;
+    }
+
+    .navbar-phone {
+        width: 50%;
+        font-size: 8px;
+    }
+
+    .navbar-phone .phone-icon .phone-icon-image {
+        width: 20px;
+    }
+
+    .mission .section-image {
+        display: none;
+    }
+
+    .promo-text {
+        font-size: 20px;
+    }
+
+    .promo-text::before {
+        width: 40px;
+        margin-right: 20px;
+        height: 2px;
+    }
+
+    .promo-text::after {
+        width: 40px;
+        margin-left: 20px;
+        height: 2px;
+    }
+
+    .about .wrapper {
+        padding: 20px 0;
+    }
+
+    .content-text {
+        font-size: 10px;
+        line-height: 16px;
+        padding-top: 10px;
+    }
+
+    .content-text-2 {
+        font-size: 10px;
+    }
+
+    .content-text-3 {
+        font-size: 10px;
+    }
+
+    .mission .wrapper {
+        padding: 30px 0;
+    }
+
+    .mission .content-title {
+        font-size: 10px;
+    }
+
+    .mission .content-text {
+        width: 100%;
+        line-height: 16px;
+        font-size: 10px;
+        padding-top: 12px;
+    }
+
+    .advantage-text {
+        width: 100%;
+        font-size: 9px;
+    }
+
+    .content-title {
+        font-size: 10px;
+    }
+
+    .content-title::before {
+        width: 26px;
+        height: 1px;
+    }
+
+    .experience-logo {
+        margin: 0;
+    }
+
+    .experience-logo img {
+        width: 100px;
+    }
+
+    .experience-text {
+        font-size: 12px;
+    }
+
+    .services .content-title {
+        justify-content: start;
+    }
+
+    .services-content {
+        text-align: left;
+    }
+
+    .services-title {
+        font-size: 10px;
+    }
+
+    .services-list {
+        font-size: 10px;
+    }
+
+    .services-text {
+        font-size: 10px;
+    }
+
+    .gratitude {
+        background-position: calc(100%) calc(0% - 15px);
+        background-size: 170% calc(120% - 20px);    
+    }
+
+    .gratitude .wrapper {
+        padding: 30px 0;
+    }
+
+    .gratitude-text {
+        font-size: 11px;
+    }
+
+    .gratitude .section-logo img {
+        width: 80%;
+    }
+
+    .footer-social-list {
+        padding: 50px 0;
+        width: 70%;
+    }
+
+    .social-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-list-item {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-bottom .wrapper {
+        padding: 5px 0;
+        line-height: 2px;
+        font-size: 6px;
     }
 }
 
