@@ -627,4 +627,132 @@ body {
         width: 700px;
     }
 
+    .navbar .logo .logo-image {
+        width: 45px;
+    }
+
+    .navbar-list-item {
+        font-size: 11px;
+    }
+
+    .navbar-phone {
+        font-size: 11px;
+    }
+
+    .promo-text {
+        font-size: 40px;
+    }
+
+    .promo-text::before {
+        margin-right: 50px;
+    }
+
+    .promo-text::after {
+        margin-left: 50px;
+    }
+
+    .content-title {
+        font-size: 14px;
+    }
+
+    .content-title::before {
+        width: 40px;
+    }
+
+    .content-text {
+        font-size: 14px;
+    }
+
+    .content-text-2 {
+        width: 70%;
+        padding: 20px 0;
+    }
+
+    .content-text-3 {
+        font-size: 14px;;
+    }
+
+    .decor-image {
+        top: 75%;
+        left: 60%;
+    }
+
+    .mission .content-title {
+        font-size: 14px;
+    }
+
+    .mission .content-text {
+        font-size: 14px;
+    }
+
+    .mission .section-image {
+        width: 50%;
+    }
+
+    .advantages .section-content {
+        padding: 12px 0;
+        padding-left: 50px;
+    }
+
+    .advantage-image {
+        width: 40px;
+    }
+
+    .experience-text {
+        font-size: 16px;
+    }
+
+    .experience-logo img {
+        width: 150px;
+    }
+
+    .services-title {
+        padding: 14px 0;
+        font-size: 14px;
+    }
+
+    .services-list {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+
+    .services-text {
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    .gratitude-text {
+        font-size: 14px;
+    }
+
+
+    .gratitude .section-image{
+        width: 50%;
+    }
+
+    .gratitude .section-logo img {
+        width: 50%;
+    }
+
+    .gratitude .content-title {
+        font-size: 14px;
+    }
+
+    .experience .wrapper {
+        padding: 100px 0;
+    }
+
+    .footer-social-list {
+        padding: 120px 0;
+    }
+
+    .footer-bottom .wrapper {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    .social-list-item img {
+        width: 80%;
+    }
+
 } 
