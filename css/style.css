@@ -756,3 +756,110 @@ body {
     }
 
 } 
+
+@media screen and (max-width: 720px)  {
+    .container {
+        width: 600px;
+    }
+
+    .promo-text {
+        font-size: 30px;
+    }
+
+    .content-text {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .content-text-2 {
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .content-text-3 {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .about-logo {
+        margin-top: 20px;
+    }
+
+    .decor-image {
+        left: 50%;
+    }
+
+    .mission .content-title {
+        font-size: 12px;
+    }
+
+    .mission .content-text {
+        font-size: 12px;
+    }
+
+    .mission-image {
+        width: 280px;
+    }
+
+    .content-title {
+        font-size: 12px;
+    }
+
+    .advantage-text {
+        font-size: 10px;
+    }
+
+    .advantage-image {
+        margin-right: 25px;
+        width: 35px;
+    }
+
+    .advantage-text {
+        width: 70%;
+    }
+
+    .advantages .section-content {
+        padding: 12px 0;
+        padding-left: 40px;
+    }
+
+    .advantages-list-item {
+        padding: 12px 0;
+    }
+
+    .experience {
+        background-size: 20%;
+    }
+
+    .experience .wrapper {
+        padding: 60px 0;
+    }
+
+    .services-title {
+        font-size: 12px;
+    }
+
+    .services-list {
+        font-size: 12px;
+    }
+
+    .services-text {
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    .footer-social-list {
+        padding: 100px 0;
+    }
+
+    .social-list-item img {
+        width: 65%;
+    }
+    
+    .footer-bottom .wrapper {
+        font-size: 10px;
+    }
+}
+
+
+
