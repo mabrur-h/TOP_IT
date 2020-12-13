@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 80%;
+    padding: 10px 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .wrapper {
+    justify-content: space-around;
+}
+
+.navbar .logo .logo-image {
+    width: 80px;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-list .navbar-list-item {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-list-item-link {
+    display: block;
+    padding: 0 10px;
+    color: #000000;
+}
+
+.navbar-phone {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    background-color: #80f493;
+    width: 20%;
+    justify-content: center;
+}
+
+.navbar-phone .phone-icon {
+    padding-right: 10px;
+}
+
+.navbar-phone .phone-icon .phone-icon-image {
+    width: 50px;
+}
+
+.promo {
+    background-image: url('../img/main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;;
+}
+
+.promo .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+}
+
+.promo-text {
+    color: #28ff4b;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+
+}
+
+.promo-text::before {
+    content: '';
+    margin-right: 100px;
+    width: 200px;
+    height: 5px;
+    background-color: #28ff4b;
+}
+
+.promo-text::after {
+    content: '';
+    margin-left: 100px;
+    width: 200px;
+    height: 5px;
+    background-color: #28ff4b;
+}
+
+.about {
+    background-color: #f3f3f3;
+}
+
+.about .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.about-image {
+    width: 40%;
+    position: relative;
+}
+
+
+.about-image-element {
+    width: 100%;
+    z-index: 999;
+    position: relative;
+}
+
+.decor-image {
+    position: absolute;
+    width: 100px;
+    top: 80%;
+    left: 70%;
+}
+
+.about-content {
+    width: 55%;
+}
+
+.content-title {
+    color: #28ff4b;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.content-title::before {
+    content: '';
+    display: block;
+    background-color: #28ff4b;
+    width: 60px;
+    height: 2px;
+    margin-right: 12px;
+}
+
+.content-text {
+    text-transform: uppercase;
+    width: 80%;
+    line-height: 30px;
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content-text-2 {
+    color: #8f8e94;
+    width: 60%;
+    padding: 30px 0;
+    font-weight: 500;
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.content-text-3 {
+    font-size: 16px;
+    width: 80%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about-logo {
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.mission {
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+
+.mission .content-title {
+    color: #c6c6c4;
+    font-size: 20px;
+}
+
+.mission .content-title::before {
+    background-color: #c6c6c4;
+}
+
+.mission .wrapper {
+    padding-top: 50px;
+}
+
+.mission .section-image {
+    position: relative;
+    bottom: -4px;
+}
+
+.mission-image {
+    position: relative;
+    z-index: 999;
+    width: 550px;
+}
+
+.decor-image-2 {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.advantages {
+    background-color: #000000;
+}
+
+.advantages .section-content {
+    width: 60%;
+    padding: 0 60px;
+}
+
+.advantages .section-image {
+    width: 40%;
+}
+
+.advantages-list {
+    padding-top: 20px;
+}
+
+.advantages-list-item {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.advantage-image {
+    width: 80px;
+    margin-right: 40px;
+}
+
+.advantage-text {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    width: 60%;
+    line-height: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.experience {
+    background-image: url('../img/decor.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) calc(0% - 80px);
+}
+
+.experience .wrapper {
+    justify-content: flex-end;
+    padding: 150px 0;
+}
+
+.experience-content {
+    display: flex;
+    align-items: center;
+}
+
+.experience-logo {
+    margin-right: 50px;
+}
+
+.experience-logo img {
+    width: 200px;
+}
+
+.experience-text {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.services {
+    background-color: #9be9a8;
+}
+
+.services-content {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.services .content-title {
+    color: #000000;
+}
+
+.services .content-title::before {
+    background-color: #000000;
+}
+
+.services .section-image {
+    width: 40%;
+}
+
+.services-title {
+    text-transform: uppercase;
+    padding: 60px 0;
+}
+
+.services-list {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+.services-text {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.5rem;
+    width: 70%;
+}
+
+
+.gratitude .section-logo {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gratitude {
+    background-image: url('../img/background-comp.png');
+    background-repeat: no-repeat;
+    background-size: 100% calc(90% - 20px);
+}
+
+.gratitude .wrapper {
+    padding: 50px 0;
+}
+
+.gratitude-text {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.gratitude .section-image {
+    width: 500px;
+}
+
+.gratitude .content-title {
+    flex-direction: row-reverse;
+    color: #000000;
+    font-size: 16px;
+}
+
+
+.gratitude .content-title::before {
+    margin-left: 20px;
+    background-color: #000000;
+}
+
+.section-logo img {
+    width: 65%;
+    margin-top: 20px;
+}
+
+.footer-top {
+    background-image: linear-gradient(#80f49399, #80f49399), url("../img/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    padding: 150px 0;
+}
+
+.footer-bottom .wrapper {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bottom p {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 960px;
+    }
+
+    .navbar {
+        font-size: 14px;
+    }
+
+    .navbar-phone {
+        font-size: 14px;
+    }
+
+    .navbar-phone .phone-icon .phone-icon-image {
+        width: 40px;
+    }
+
+
+    .content-title {
+        font-size: 20px;
+    }
+
+    .advantages-list-item {
+        padding: 20px 0;
+    }
+
+    .advantage-image {
+        width: 60px;
+    }
+
+    .advantage-text {
+        font-size: 12px;
+    }
+
+    .experience-text {
+        font-size: 22px;
+    }
+
+    .services-title {
+        padding: 30px 0;
+    }
+
+    .services-list {
+        padding-bottom: 30px;
+    }
+
+    .services-text { 
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .gratitude img {
+        width: 90%;
+    }
+
+    .gratitude .section-text {
+        width: 50%;
+    }
+
+    .gratitude .content-title::before {
+        width: 40px;
+    }
+
+    .social-list-item {
+        width: 80px;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 880px;
+    }
+
+    .navbar .logo .logo-image {
+        width: 60px;
+    }
+
+    .navbar-list-item {
+        font-size: 13px;
+    }
+
+    .navbar-phone {
+        font-size: 13px;
+    }
+    
+    .navbar-phone .phone-icon .phone-icon-image {
+        width: 30px;
+    }
+
+    .promo {
+        height: 100vh;
+    }
+
+    .promo-text {
+        font-size: 44px;
+    }
+
+    .promo-text::before {
+        width: 160px;
+        height: 3px;
+    }
+
+    
+    .promo-text::after {
+        width: 160px;
+        height: 3px;
+    }
+
+    .content-title {
+        font-size: 18px;
+    }
+
+    .content-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .content-text-2 {
+        padding: 20p 0;
+    }
+
+    .mission .content-title {
+        font-size: 18px;
+    }
+
+    .mission .content-text {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .mission-image {
+        width: 420px;
+    }
+
+    .advantage-image {
+        width: 50px;
+    }
+
+    .advantage-text {
+        font-size: 11px;
+    }
+
+    .advantages-list-item {
+        padding: 16px 0;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .experience-logo img {
+        width: 180px;
+    }
+
+    .services-title {
+        padding: 20px 0;
+        font-size: 16px;
+    }
+
+    .services-list {
+        font-size: 16px;
+    }
+
+    .services-text {
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .gratitude img {
+        width: 80%;
+    }
+
+    .gratitude .content-title {
+        width: 170px;
+    }
+
+    .gratitude-text {
+        font-size: 20px;
+    }
+
+    .social-list-item {
+        width: 65px;
+    }
+
+    .footer-bottom .wrapper {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .container {
+        width: 800px;
+    }
+    
+}
+
+@media screen and (max-width: 820px) {
+    
+    .container {
+        width: 700px;
+    }
+
+} 
