@@ -81,6 +81,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 85vh;;
+    background-attachment: fixed;
 }
 
 .promo .wrapper {
